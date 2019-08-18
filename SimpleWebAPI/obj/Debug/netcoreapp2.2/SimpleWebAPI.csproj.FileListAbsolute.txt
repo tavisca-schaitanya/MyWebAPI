@@ -12,3 +12,17 @@ C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI\obj\Debu
 C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.pdb
 C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.dll
 C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.pdb
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.csprojAssemblyReference.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.RazorAssemblyInfo.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.RazorAssemblyInfo.cs
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.AssemblyInfoInputs.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.AssemblyInfo.cs
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.pdb
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.deps.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.runtimeconfig.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.runtimeconfig.dev.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\bin\Debug\netcoreapp2.2\SimpleWebAPI.pdb
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\obj\Debug\netcoreapp2.2\SimpleWebAPI.RazorTargetAssemblyInfo.cache
