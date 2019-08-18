@@ -6,6 +6,7 @@ pipeline {
 	password(name: 'PASSWORD')
 	string(name: 'DOCKER_REPO_NAME')
 	string(name: 'TAG_NAME')
+	string(name: 'PORT')
     }
     stages {
         stage('Build') {
@@ -36,9 +37,15 @@ pipeline {
 	}
 	stage('Push Image') {
 	    steps {
-		powershell(script:'docker login -u ${env:USER_NAME} -p ${env:PASSWORD}')
-                powershell(script:'docker tag ${env:IMAGE_NAME}:latest ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
-                powershell(script:'docker push ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+		powershell(script: 'docker login -u ${env:USER_NAME} -p ${env:PASSWORD}')
+                powershell(script: 'docker tag ${env:IMAGE_NAME}:latest ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+                powershell(script: 'docker push ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+	    }
+	}
+	stage('Deploy') {
+	    steps {
+		powershell(script: 'docker pull ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+		powershell(script: 'docker run -p ${env:PORT}:80 ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
 	    }
 	}
      }
