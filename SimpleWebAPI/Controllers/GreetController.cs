@@ -14,11 +14,11 @@ namespace SimpleWebAPI.Controllers
         [HttpGet("Talk")]
         public string Talk(string message)
         {
-            if (message == "hi")
-                return "hello";
+            if (message.ToLower() == "hi")
+                return "Hello";
 
-            if (message == "hello")
-                return "hi";
+            if (message.ToLower() == "hello")
+                return "Hi";
 
             return "I don't know what you are saying";
         }
