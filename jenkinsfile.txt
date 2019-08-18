@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+    parameters {
+	string(name: 'IMAGE_NAME')
+	string(name: 'USER_NAME')
+	password(name: 'PASSWORD')
+	string(name: 'DOCKER_REPO_NAME')
+	string(name: 'TAG_NAME')
+    }
+    stages {
+        stage('Build') {
+            steps {
+                powershell(script: 'dotnet build')
+           
+            }
+        }
+	stage('Test') {
+	    steps {
+		powershell(script: 'dotnet test')
+	    }
+	}
+	stage('Publish') {
+	    steps {
+		powershell(script: 'dotnet publish -c Release -o ../publish')
+	    }
+	}
+	stage('Archive') {
+	    steps {
+		powershell(script: "archiveArtifacts artifacts: 'publish/*.*', fingerprint: true")
+	    }
+	}
+	stage('Docker Image') {
+	    steps {
+		powershell(script: 'docker build -t ${env:IMAGE_NAME} .')
+	    }
+	}
+	stage('Push Image') {
+	    steps {
+		powershell(script:'docker login -u ${env:USER_NAME} -p ${env:PASSWORD}')
+                powershell(script:'docker tag ${env:IMAGE_NAME}:latest ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+                powershell(script:'docker push ${env:USER_NAME}/${env:DOCKER_REPO_NAME}:${env:TAG_NAME}')
+	    }
+	}
+     }
+}

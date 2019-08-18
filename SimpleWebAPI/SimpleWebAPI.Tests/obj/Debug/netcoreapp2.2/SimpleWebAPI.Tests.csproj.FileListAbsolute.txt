@@ -1,0 +1,14 @@
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.Tests.deps.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.Tests.runtimeconfig.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.Tests.runtimeconfig.dev.json
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.Tests.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.dll
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\bin\Debug\netcoreapp2.2\SimpleWebAPI.pdb
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\obj\Debug\netcoreapp2.2\SimpleWebAPI.Tests.csprojAssemblyReference.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\obj\Debug\netcoreapp2.2\SimpleWebAPI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\obj\Debug\netcoreapp2.2\SimpleWebAPI.Tests.AssemblyInfoInputs.cache
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\obj\Debug\netcoreapp2.2\SimpleWebAPI.Tests.AssemblyInfo.cs
+C:\Users\achaitanya\source\repos\SimpleWebAPI\SimpleWebAPI\SimpleWebAPI.Tests\obj\Debug\netcoreapp2.2\SimpleWebAPI.Tests.csproj.CopyComplete
